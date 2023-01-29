@@ -4,14 +4,8 @@
 
 Console.Write("Введите числа через запятую: ");
 string arr = Console.ReadLine();
-// Console.Write(arr);
 string[] num = arr.Split(new char[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries);
 int[] n = num.Select(Int32.Parse).ToArray();
-//Console.WriteLine();
-// for (int i = 0; i < n.Length; i++)
-// {
-//     Console.Write($"{n[i]} ");
-// }
 int count = 0;
 for (int j = 0; j < n.Length; j++)
 {
