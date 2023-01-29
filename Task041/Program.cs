@@ -13,10 +13,10 @@ for (int i = 0; i < array.Length; i++)
     array[i] = Convert.ToInt32(Console.ReadLine());
 }
 Console.WriteLine();
- Console.Write("Заданный массив: ");
+Console.Write("Заданный массив: ");
 for (int j = 0; j < array.Length; j++)
 {
-     Console.Write($"{array[j]} ");
+    Console.Write($"{array[j]} ");
 }
 for (int k = 0; k < array.Length; k++)
 {
@@ -26,4 +26,4 @@ for (int k = 0; k < array.Length; k++)
     }
 }
 Console.WriteLine();
- Console.Write($"Колличество положительных элементов в массиве: {count}.");
+Console.Write($"Колличество положительных элементов в массиве: {count}.");
